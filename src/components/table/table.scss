@@ -1,0 +1,21 @@
+.table{
+    .status{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.good{
+            color: #00b894;
+            background-color: #55efc327;
+        }
+
+        &.bad{
+            color: #d63031;
+            background-color: #fab0a048;
+        }
+
+        &.check{
+            color: #fdcb6e;
+            background-color: #ffeaa73d;
+        }
+    }
+}

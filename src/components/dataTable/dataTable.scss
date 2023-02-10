@@ -1,0 +1,91 @@
+.dataTable{
+    height: 600px;
+    padding: 20px;
+
+    .dataTableTitle{
+        width: 100%;
+        font-size: 24px;
+        color: #636e72;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;justify-content: space-between;
+
+        .link{
+            text-decoration: none;
+            background-color: #00b894;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+            border: 1px solid #00b894;
+            padding: 5px;
+            border-radius: 5px;
+
+        }
+    }
+
+    .cellWithImg{
+        display: flex;
+        align-items: center;
+
+        .cellImg{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+    }
+
+    .cellWithStatus{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.active{
+            color: #00b894;
+            background-color: #55efc327;
+        }
+
+        &.passive{
+            color: #d63031;
+            background-color: #fab0a048;
+        }
+
+        &.Good{
+            color: #00b894;
+            background-color: #55efc327;
+        }
+
+        &.Bad{
+            color: #d63031;
+            background-color: #fab0a048;
+        }
+
+        &.Check{
+            color: #fdcb6e;
+            background-color: #ffeaa73d;
+        }
+
+    }
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .viewButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: #0984e3;
+            border: 1px dotted #81ecec;
+            cursor: pointer;
+        }
+
+        .deleteButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: #d63031;
+            border: 1px dotted #ff7675;
+            cursor: pointer;
+        }
+    }
+}
