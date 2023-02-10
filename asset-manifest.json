@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/takafol-admin/static/css/main.f62a2aa7.css",
-    "main.js": "/takafol-admin/static/js/main.ae13bedb.js",
+    "main.js": "/takafol-admin/static/js/main.d4de5fec.js",
     "static/media/logo.jpg": "/takafol-admin/static/media/logo.85b7a2a12a2735df26eb.jpg",
     "static/media/logo2.jpg": "/takafol-admin/static/media/logo2.04c0b78d84a45dd6bcca.jpg",
     "static/media/pattern (1).svg": "/takafol-admin/static/media/pattern (1).29d8fc3b941b5774ee1662c4dbdcf8f6.svg",
     "index.html": "/takafol-admin/index.html",
     "main.f62a2aa7.css.map": "/takafol-admin/static/css/main.f62a2aa7.css.map",
-    "main.ae13bedb.js.map": "/takafol-admin/static/js/main.ae13bedb.js.map"
+    "main.d4de5fec.js.map": "/takafol-admin/static/js/main.d4de5fec.js.map"
   },
   "entrypoints": [
     "static/css/main.f62a2aa7.css",
-    "static/js/main.ae13bedb.js"
+    "static/js/main.d4de5fec.js"
   ]
 }
